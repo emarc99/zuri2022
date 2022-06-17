@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:  hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+header {text-align: center;}
+header a{
+    text-decoration: none;
+    color: black;
+    
+    font-size: 50px;
+    font-weight: bold;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+    max-width: 50%;
+    
+    
+}
+main p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    padding-bottom: 50px;
+
+}
+main h3 {
+    color:  hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    padding-bottom: 30px;
+    font-size: 28px;
+}
+.first {
+    padding: 2em;
+    width: 33%;
+    background-color: hsl(31, 77%, 52%);
+}
+.second {
+    padding: 2em;
+    width: 33%;
+    background-color: hsl(184, 100%, 22%);
+}
+.third {
+    padding: 2em;
+    width: 33%;
+    background-color: hsl(179, 100%, 13%);
+}
+.logo-bg {
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+button {
+    border-radius: 18px;
+    border: 1px solid white;
+    cursor: pointer;
+    padding: 9px 20px;
+    padding-bottom: 10px;
+}
+.first button {
+    color: hsl(31, 77%, 52%);
+}
+.second button {
+    color: hsl(184, 100%, 22%);
+}
+.third button {
+    color: hsl(179, 100%, 13%);
+}
+button:hover {
+    color: hsl(0, 0%, 95%);
+    background-color: inherit;
+}
